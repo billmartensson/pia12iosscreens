@@ -11,6 +11,14 @@
 		E83888282B342A0700DF698A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83888272B342A0700DF698A /* ContentView.swift */; };
 		E838882A2B342A0900DF698A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E83888292B342A0900DF698A /* Assets.xcassets */; };
 		E838882D2B342A0900DF698A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E838882C2B342A0900DF698A /* Preview Assets.xcassets */; };
+		E83888342B342E6400DF698A /* FancyBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83888332B342E6400DF698A /* FancyBoxView.swift */; };
+		E83888362B343E5900DF698A /* FancyNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83888352B343E5900DF698A /* FancyNavView.swift */; };
+		E83888382B34413D00DF698A /* FunnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83888372B34413D00DF698A /* FunnyView.swift */; };
+		E838883A2B34427700DF698A /* MathBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83888392B34427700DF698A /* MathBoxView.swift */; };
+		E838883D2B3444E100DF698A /* MathPortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E838883C2B3444E000DF698A /* MathPortView.swift */; };
+		E838883F2B3444F000DF698A /* MathLandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E838883E2B3444F000DF698A /* MathLandView.swift */; };
+		E83888412B34487300DF698A /* MathipadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83888402B34487300DF698A /* MathipadView.swift */; };
+		E83888432B345FB800DF698A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83888422B345FB800DF698A /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		E83888272B342A0700DF698A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E83888292B342A0900DF698A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E838882C2B342A0900DF698A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E83888332B342E6400DF698A /* FancyBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyBoxView.swift; sourceTree = "<group>"; };
+		E83888352B343E5900DF698A /* FancyNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyNavView.swift; sourceTree = "<group>"; };
+		E83888372B34413D00DF698A /* FunnyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyView.swift; sourceTree = "<group>"; };
+		E83888392B34427700DF698A /* MathBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathBoxView.swift; sourceTree = "<group>"; };
+		E838883C2B3444E000DF698A /* MathPortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathPortView.swift; sourceTree = "<group>"; };
+		E838883E2B3444F000DF698A /* MathLandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathLandView.swift; sourceTree = "<group>"; };
+		E83888402B34487300DF698A /* MathipadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathipadView.swift; sourceTree = "<group>"; };
+		E83888422B345FB800DF698A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +67,12 @@
 		E83888242B342A0700DF698A /* pia12iosscreens */ = {
 			isa = PBXGroup;
 			children = (
+				E838883B2B3443AF00DF698A /* Math */,
 				E83888252B342A0700DF698A /* pia12iosscreensApp.swift */,
 				E83888272B342A0700DF698A /* ContentView.swift */,
+				E83888352B343E5900DF698A /* FancyNavView.swift */,
+				E83888332B342E6400DF698A /* FancyBoxView.swift */,
+				E83888422B345FB800DF698A /* LoginView.swift */,
 				E83888292B342A0900DF698A /* Assets.xcassets */,
 				E838882B2B342A0900DF698A /* Preview Content */,
 			);
@@ -65,6 +85,18 @@
 				E838882C2B342A0900DF698A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E838883B2B3443AF00DF698A /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				E83888372B34413D00DF698A /* FunnyView.swift */,
+				E838883C2B3444E000DF698A /* MathPortView.swift */,
+				E838883E2B3444F000DF698A /* MathLandView.swift */,
+				E83888402B34487300DF698A /* MathipadView.swift */,
+				E83888392B34427700DF698A /* MathBoxView.swift */,
+			);
+			path = Math;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +169,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E83888412B34487300DF698A /* MathipadView.swift in Sources */,
 				E83888282B342A0700DF698A /* ContentView.swift in Sources */,
+				E838883F2B3444F000DF698A /* MathLandView.swift in Sources */,
+				E838883D2B3444E100DF698A /* MathPortView.swift in Sources */,
+				E83888382B34413D00DF698A /* FunnyView.swift in Sources */,
 				E83888262B342A0700DF698A /* pia12iosscreensApp.swift in Sources */,
+				E83888362B343E5900DF698A /* FancyNavView.swift in Sources */,
+				E838883A2B34427700DF698A /* MathBoxView.swift in Sources */,
+				E83888432B345FB800DF698A /* LoginView.swift in Sources */,
+				E83888342B342E6400DF698A /* FancyBoxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +312,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"pia12iosscreens/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,13 +341,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"pia12iosscreens/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

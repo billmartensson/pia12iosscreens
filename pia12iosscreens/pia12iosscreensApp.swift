@@ -11,7 +11,8 @@ import SwiftUI
 struct pia12iosscreensApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            FunnyView()
         }
     }
 }
